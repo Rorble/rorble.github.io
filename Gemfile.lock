@@ -281,8 +281,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  github-pages
-  jekyll
+  github-pages (~> 209)
   jekyll-admin (= 0.9.0)
   jekyll-feed
   rack
