@@ -1,12 +1,12 @@
 - name: LIS 600
   image: https://rorble.github.io/assets/images/600.jpg
-  link: https://rorble.github.io/blog
+  link: https://rorble.github.io/blog/lis-600
   description: Foundations of Library and Information Studies | Showcasing the history, trends, and ethics of the profession.
 - name: LIS 610
-  link: https://rorble.github.io/blog
+  link: https://rorble.github.io/blog/lis-610
   image: https://rorble.github.io/assets/images/610.jpg
   description: Collection Management | Providing context and practice in material selection, weeding, marketing, and planning.
 - name: LIS 636
-  link: https://rorble.github.io/blog
+  link: https://rorble.github.io/blog/lis-636
   image: https://rorble.github.io/assets/images/636.jpg
   description: Web Production and Usability | Establishing a framework for design concepts and the best practices of UX/IA.
