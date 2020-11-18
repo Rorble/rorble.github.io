@@ -3,14 +3,10 @@
         MORE
     </a>
     <div class="navbar-dropdown has-background-black is-left">
-        {% for sitepage in site.html_pages %}
-        {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/blog' %}
-        <a href="{{sitepage.url | absolute_url}}"
-            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
-            {{sitepage.title}}
-        </a>
-        {% endunless %}
-        {% endfor %}
+        <a href="https://rorble.github.io/blog"
+           class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">Blog</a>
+        <a href="https://rorble.github.io/project"
+           class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">Academic Portfolio</a>
         <!-- <hr class="navbar-divider">
     <a class="navbar-item">
       Report an issue
