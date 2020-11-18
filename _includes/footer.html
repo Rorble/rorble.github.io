@@ -11,7 +11,7 @@
                 <a href="{{site.url}}{{site.baseurl}}/#about">
                     <div class="columns">
                         <div class="column is-one-fifth-desktop is-one-fifth-fullhd is-one-quarter-tablet">
-                            <figure class="image is-64x64">
+                            <figure class="image is-64x128">
                                 <img class="is-rounded" src="{{site.author-image}}">
                             </figure>
                         </div>
@@ -28,13 +28,11 @@
             <!--Link Section-->
             <div class="column has-text-white">
                 <h3>More Links</h3>
-                {% for sitepage in site.html_pages offset: 4 %}
-                {% unless sitepage.url == '/'  limit: 2 %}
                 <li>
-                    <a href="{{sitepage.url | absolute_url}}">{{sitepage.title}}</a>
+                    <a href="https://rorble.github.io/blog">Blog</a>
                 </li>
-                {% endunless %}
-                {% endfor %}
+                <li>
+                    <a href="https://rorble.github.io/project">Academic Portfolio</a>
                 <li>
                     <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">Subscribe via RSS</a>
                 </li>
